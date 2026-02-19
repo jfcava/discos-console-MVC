@@ -1,0 +1,9 @@
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\bin\Debug\negocio.dll
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\bin\Debug\negocio.pdb
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\bin\Debug\dominio.dll
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\bin\Debug\dominio.pdb
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\obj\Debug\negocio.dll
+C:\Users\Juan\Desktop\discos-console-MVC\negocio\obj\Debug\negocio.pdb
