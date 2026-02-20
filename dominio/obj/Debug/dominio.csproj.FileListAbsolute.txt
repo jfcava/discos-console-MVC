@@ -4,3 +4,9 @@ C:\Users\Juan\Desktop\discos-console-MVC\dominio\obj\Debug\dominio.csproj.Assemb
 C:\Users\Juan\Desktop\discos-console-MVC\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Desktop\discos-console-MVC\dominio\obj\Debug\dominio.dll
 C:\Users\Juan\Desktop\discos-console-MVC\dominio\obj\Debug\dominio.pdb
+D:\CURSO C# MVC\discos-console-MVC\dominio\bin\Debug\dominio.dll
+D:\CURSO C# MVC\discos-console-MVC\dominio\bin\Debug\dominio.pdb
+D:\CURSO C# MVC\discos-console-MVC\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+D:\CURSO C# MVC\discos-console-MVC\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+D:\CURSO C# MVC\discos-console-MVC\dominio\obj\Debug\dominio.dll
+D:\CURSO C# MVC\discos-console-MVC\dominio\obj\Debug\dominio.pdb

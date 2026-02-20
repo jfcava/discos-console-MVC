@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\CURSO C# MVC\\discos-console-MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD247E55-A363-4D6A-9759-0CF835BACA93}|dominio\\dominio.csproj|d:\\curso c# mvc\\discos-console-mvc\\dominio\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD247E55-A363-4D6A-9759-0CF835BACA93}|dominio\\dominio.csproj|solutionrelative:dominio\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|d:\\curso c# mvc\\discos-console-mvc\\web-app-discos\\views\\disco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|solutionrelative:web-app-discos\\views\\disco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|d:\\curso c# mvc\\discos-console-mvc\\web-app-discos\\controllers\\discocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|solutionrelative:web-app-discos\\controllers\\discocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|d:\\curso c# mvc\\discos-console-mvc\\web-app-discos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|solutionrelative:web-app-discos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|d:\\curso c# mvc\\discos-console-mvc\\web-app-discos\\web-app-discos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|solutionrelative:web-app-discos\\web-app-discos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Disco.cs",
+              "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\Disco.cs",
+              "RelativeDocumentMoniker": "dominio\\Disco.cs",
+              "ToolTip": "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\Disco.cs",
+              "RelativeToolTip": "dominio\\Disco.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T02:39:01.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "web-app-discos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "web-app-discos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T02:32:17.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Disco\\Index.cshtml",
+              "RelativeDocumentMoniker": "web-app-discos\\Views\\Disco\\Index.cshtml",
+              "ToolTip": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Disco\\Index.cshtml",
+              "RelativeToolTip": "web-app-discos\\Views\\Disco\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T02:31:16.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "web-app-discos",
+              "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj",
+              "RelativeDocumentMoniker": "web-app-discos\\web-app-discos.csproj",
+              "ToolTip": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj",
+              "RelativeToolTip": "web-app-discos\\web-app-discos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-20T02:28:17.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiscoController.cs",
+              "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Controllers\\DiscoController.cs",
+              "RelativeDocumentMoniker": "web-app-discos\\Controllers\\DiscoController.cs",
+              "ToolTip": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Controllers\\DiscoController.cs",
+              "RelativeToolTip": "web-app-discos\\Controllers\\DiscoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T02:29:05.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
