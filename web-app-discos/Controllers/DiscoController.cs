@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using dominio;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using negocio;
 
 namespace web_app_discos.Controllers
@@ -23,16 +25,28 @@ namespace web_app_discos.Controllers
         // GET: DiscoController/Create
         public ActionResult Create()
         {
+            EstiloNegocio estiloNegocio = new EstiloNegocio();
+            TipoEdicionNegocio tipoEdicionNegocio = new TipoEdicionNegocio();
+
+            //ViewBag.Elementos = new SelectList(elementoNegocio.listar(), "Id", "Descripcion");
+
+            ViewBag.Estilos = new SelectList(estiloNegocio.listar(), "Id", "Descripcion");
+            ViewBag.TiposEdicion = new SelectList(tipoEdicionNegocio.listar(), "Id", "Descripcion");
+
             return View();
         }
 
         // POST: DiscoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Disco disco)
         {
             try
             {
+                DiscoNegocio negocio = new DiscoNegocio();
+
+                negocio.agregar(disco);
+
                 return RedirectToAction(nameof(Index));
             }
             catch
