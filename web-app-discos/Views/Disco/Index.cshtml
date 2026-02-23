@@ -50,8 +50,8 @@
                 <img src="@item.UrlTapa" width="80" alt="Imagen disco" />
             </td>
             <td>
-                <a asp-action="Edit" class="btn btn-outline-primary">Editar</a> |
-                <a asp-action="Details" class="btn btn-outline-success">Detalle</a> |
+                <a asp-action="Edit" class="btn btn-outline-primary" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" class="btn btn-outline-success" asp-route-id="@item.Id">Detalle</a> |
                 <a asp-action="Delete" class="btn btn-outline-danger">Eliminar</a>
             </td>
         </tr>

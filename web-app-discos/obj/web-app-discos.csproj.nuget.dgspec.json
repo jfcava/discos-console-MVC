@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj": {}
+    "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj": {}
   },
   "projects": {
-    "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\dominio.csproj": {
+    "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\dominio\\dominio.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\dominio\\dominio.csproj",
         "projectName": "dominio",
-        "projectPath": "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\dominio.csproj",
+        "projectPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\dominio\\dominio.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
@@ -20,17 +20,17 @@
         "net48": {}
       }
     },
-    "D:\\CURSO C# MVC\\discos-console-MVC\\negocio\\negocio.csproj": {
+    "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\negocio\\negocio.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\CURSO C# MVC\\discos-console-MVC\\negocio\\negocio.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\negocio\\negocio.csproj",
         "projectName": "negocio",
-        "projectPath": "D:\\CURSO C# MVC\\discos-console-MVC\\negocio\\negocio.csproj",
+        "projectPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\negocio\\negocio.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\dominio.csproj": {
-                "projectPath": "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\dominio.csproj"
+              "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\dominio\\dominio.csproj": {
+                "projectPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\dominio\\dominio.csproj"
               }
             }
           }
@@ -40,20 +40,20 @@
         "net48": {}
       }
     },
-    "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj": {
+    "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj",
         "projectName": "web-app-discos",
-        "projectPath": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\obj\\",
+        "projectPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\web-app-discos\\web-app-discos.csproj",
+        "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\web-app-discos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,11 +68,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\dominio.csproj": {
-                "projectPath": "D:\\CURSO C# MVC\\discos-console-MVC\\dominio\\dominio.csproj"
+              "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\dominio\\dominio.csproj": {
+                "projectPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\dominio\\dominio.csproj"
               },
-              "D:\\CURSO C# MVC\\discos-console-MVC\\negocio\\negocio.csproj": {
-                "projectPath": "D:\\CURSO C# MVC\\discos-console-MVC\\negocio\\negocio.csproj"
+              "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\negocio\\negocio.csproj": {
+                "projectPath": "C:\\Users\\Juan\\Desktop\\discos-console-MVC\\negocio\\negocio.csproj"
               }
             }
           }
@@ -125,7 +125,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

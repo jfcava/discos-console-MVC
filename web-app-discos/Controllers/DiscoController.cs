@@ -19,7 +19,10 @@ namespace web_app_discos.Controllers
         // GET: DiscoController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            DiscoNegocio negocio = new DiscoNegocio();
+
+            var disco = negocio.listar().Find(d => d.Id == id);
+            return View(disco);
         }
 
         // GET: DiscoController/Create
@@ -58,16 +61,30 @@ namespace web_app_discos.Controllers
         // GET: DiscoController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            DiscoNegocio negocio = new DiscoNegocio();
+
+            var disco = negocio.listar().Find(d => d.Id == id);
+
+            EstiloNegocio estiloNegocio = new EstiloNegocio();
+            TipoEdicionNegocio tipoEdicionNegocio = new TipoEdicionNegocio();
+
+            ViewBag.Estilos = new SelectList(estiloNegocio.listar(), "Id", "Descripcion");
+            ViewBag.TiposEdicion = new SelectList(tipoEdicionNegocio.listar(), "Id", "Descripcion");
+
+            return View(disco);
         }
 
         // POST: DiscoController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Disco disco)
         {
             try
             {
+                DiscoNegocio negocio = new DiscoNegocio();
+
+                negocio.modificar(disco);
+
                 return RedirectToAction(nameof(Index));
             }
             catch
