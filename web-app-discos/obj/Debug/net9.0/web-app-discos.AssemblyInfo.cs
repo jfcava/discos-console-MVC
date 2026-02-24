@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("web-app-discos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f72fb29327f1432f104c3b68278d90bca3e5de3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba6e0ce56bd505fd0dbc9a765de65678fa967fb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("web-app-discos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("web-app-discos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

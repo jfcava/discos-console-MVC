@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis.Elfie.Serialization;
 using negocio;
 
 namespace web_app_discos.Controllers
@@ -9,10 +10,18 @@ namespace web_app_discos.Controllers
     public class DiscoController : Controller
     {
         // GET: DiscoController
-        public ActionResult Index()
+        public ActionResult Index(string filtro)
         {
             DiscoNegocio negocio = new DiscoNegocio();
             var discos = negocio.listar();
+
+            if (!string.IsNullOrEmpty(filtro))
+            {
+                discos = discos.FindAll(p => p.Titulo.Contains(filtro));
+            }
+
+            ViewBag.filtro = filtro;
+
             return View(discos);
         }
 
