@@ -7,14 +7,12 @@
       "RelativeMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|solutionrelative:web-app-discos\\controllers\\discocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A39CA23-38AF-FA7A-2829-41E1F78B43C7}|..\\pokedex-MVC\\pokedex-MVC\\pokedex-MVC.csproj|d:\\curso c# mvc\\pokedex-mvc\\pokedex-mvc\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|d:\\curso c# mvc\\discos-console-mvc\\web-app-discos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|solutionrelative:web-app-discos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|d:\\curso c# mvc\\discos-console-mvc\\web-app-discos\\views\\disco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|solutionrelative:web-app-discos\\views\\disco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A39CA23-38AF-FA7A-2829-41E1F78B43C7}|..\\pokedex-MVC\\pokedex-MVC\\pokedex-MVC.csproj|d:\\curso c# mvc\\pokedex-mvc\\pokedex-mvc\\views\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1246F9E-71A5-4190-86AE-3BE010B13807}|web-app-discos\\web-app-discos.csproj|d:\\curso c# mvc\\discos-console-mvc\\web-app-discos\\views\\disco\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,14 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PokemonController.cs",
-              "DocumentMoniker": "D:\\CURSO C# MVC\\pokedex-MVC\\pokedex-MVC\\Controllers\\PokemonController.cs",
-              "RelativeDocumentMoniker": "..\\pokedex-MVC\\pokedex-MVC\\Controllers\\PokemonController.cs",
-              "ToolTip": "D:\\CURSO C# MVC\\pokedex-MVC\\pokedex-MVC\\Controllers\\PokemonController.cs",
-              "RelativeToolTip": "..\\pokedex-MVC\\pokedex-MVC\\Controllers\\PokemonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Program.cs",
+              "RelativeDocumentMoniker": "web-app-discos\\Program.cs",
+              "ToolTip": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Program.cs",
+              "RelativeToolTip": "web-app-discos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:54:07.884Z",
+              "WhenOpened": "2026-02-25T13:49:00.062Z",
               "EditorCaption": ""
             },
             {
@@ -63,7 +61,7 @@
               "RelativeDocumentMoniker": "web-app-discos\\Controllers\\DiscoController.cs",
               "ToolTip": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Controllers\\DiscoController.cs",
               "RelativeToolTip": "web-app-discos\\Controllers\\DiscoController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAmwHYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T19:58:15.918Z",
               "EditorCaption": ""
@@ -71,19 +69,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CURSO C# MVC\\pokedex-MVC\\pokedex-MVC\\Views\\Pokemon\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\pokedex-MVC\\pokedex-MVC\\Views\\Pokemon\\Index.cshtml",
-              "ToolTip": "D:\\CURSO C# MVC\\pokedex-MVC\\pokedex-MVC\\Views\\Pokemon\\Index.cshtml",
-              "RelativeToolTip": "..\\pokedex-MVC\\pokedex-MVC\\Views\\Pokemon\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T13:53:45.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Disco\\Delete.cshtml",
               "RelativeDocumentMoniker": "web-app-discos\\Views\\Disco\\Delete.cshtml",
@@ -95,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Disco\\Details.cshtml",
               "RelativeDocumentMoniker": "web-app-discos\\Views\\Disco\\Details.cshtml",
@@ -115,12 +100,11 @@
               "RelativeToolTip": "web-app-discos\\Views\\Disco\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T20:05:23.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T20:05:23.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Disco\\Create.cshtml",
               "RelativeDocumentMoniker": "web-app-discos\\Views\\Disco\\Create.cshtml",
@@ -132,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\CURSO C# MVC\\discos-console-MVC\\web-app-discos\\Views\\Disco\\Edit.cshtml",
               "RelativeDocumentMoniker": "web-app-discos\\Views\\Disco\\Edit.cshtml",

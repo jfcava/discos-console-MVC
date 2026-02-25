@@ -1,9 +1,20 @@
+using negocio;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Se registra el servicio de DiscoNegocio en el contenedor de dependencias
+builder.Services.AddScoped<DiscoNegocio>();
+
+
+
 var app = builder.Build();
+
+
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

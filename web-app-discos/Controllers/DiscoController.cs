@@ -9,11 +9,20 @@ namespace web_app_discos.Controllers
 {
     public class DiscoController : Controller
     {
+        //Para no tener que crear una instancia de DiscoNegocio en cada acción,
+        //se inyecta a través del constructor de la clase.
+        private DiscoNegocio _negocio;
+        
+        //El constructor recibe una instancia de DiscoNegocio,
+        //que es proporcionada por el sistema de inyección de dependencias de ASP.NET Core.
+        public DiscoController(DiscoNegocio negocio)
+        {
+            _negocio = negocio;
+        }
         // GET: DiscoController
         public ActionResult Index(string filtro)
         {
-            DiscoNegocio negocio = new DiscoNegocio();
-            var discos = negocio.listar();
+            var discos = _negocio.listar();
 
             if (!string.IsNullOrEmpty(filtro))
             {
@@ -28,9 +37,8 @@ namespace web_app_discos.Controllers
         // GET: DiscoController/Details/5
         public ActionResult Details(int id)
         {
-            DiscoNegocio negocio = new DiscoNegocio();
 
-            var disco = negocio.listar().Find(d => d.Id == id);
+            var disco = _negocio.listar().Find(d => d.Id == id);
             return View(disco);
         }
 
@@ -55,9 +63,7 @@ namespace web_app_discos.Controllers
         {
             try
             {
-                DiscoNegocio negocio = new DiscoNegocio();
-
-                negocio.agregar(disco);
+                _negocio.agregar(disco);
 
                 return RedirectToAction(nameof(Index));
             }
@@ -70,9 +76,8 @@ namespace web_app_discos.Controllers
         // GET: DiscoController/Edit/5
         public ActionResult Edit(int id)
         {
-            DiscoNegocio negocio = new DiscoNegocio();
 
-            var disco = negocio.listar().Find(d => d.Id == id);
+            var disco = _negocio.listar().Find(d => d.Id == id);
 
             EstiloNegocio estiloNegocio = new EstiloNegocio();
             TipoEdicionNegocio tipoEdicionNegocio = new TipoEdicionNegocio();
@@ -90,9 +95,8 @@ namespace web_app_discos.Controllers
         {
             try
             {
-                DiscoNegocio negocio = new DiscoNegocio();
 
-                negocio.modificar(disco);
+                _negocio.modificar(disco);
 
                 return RedirectToAction(nameof(Index));
             }
@@ -105,8 +109,7 @@ namespace web_app_discos.Controllers
         // GET: DiscoController/Delete/5
         public ActionResult Delete(int id)
         {
-            DiscoNegocio negocio = new DiscoNegocio();
-            var disco = negocio.listar().Find(d => d.Id == id);
+            var disco = _negocio.listar().Find(d => d.Id == id);
             return View(disco);
         }
 
@@ -117,8 +120,7 @@ namespace web_app_discos.Controllers
         {
             try
             {
-                DiscoNegocio negocio = new DiscoNegocio();
-                negocio.eliminar(id);
+                _negocio.eliminar(id);
                 return RedirectToAction(nameof(Index));
             }
             catch
